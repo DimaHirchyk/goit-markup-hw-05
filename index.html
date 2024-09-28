@@ -63,7 +63,9 @@
       <section class="title-bg">
         <div class="container title-container">
           <h1 class="main-text">Effective Solutions for Your Business</h1>
-          <button type="button" class="button">Order Service</button>
+          <button type="button" class="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!-- Studio/Punctualit/Diligence/Technologies -->
@@ -443,9 +445,9 @@
 
     <!-- MODAL OVERLEY -->
 
-    <div class="modal-overley">
+    <div class="modal-overley" data-modal>
       <div class="overley">
-        <button class="close-btn" type="button">
+        <button class="close-btn" type="button" data-modal-close>
           <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-Vector-3"></use>
           </svg>
@@ -534,5 +536,7 @@
         </form>
       </div>
     </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
