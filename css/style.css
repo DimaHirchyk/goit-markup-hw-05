@@ -780,9 +780,9 @@ margin-bottom: 24px;
 }
 
 .review-form-checkbox:checked + .review-form-checkbox-label > .custom-checkbox {
-  background-color: F4F4FD;
+  background-color: #404bbf;
   border: none;
-  fill: #fff;
+  fill: #F4F4FD;
 }
 
 .custom-checkbox {
