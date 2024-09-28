@@ -666,18 +666,13 @@ position: absolute;
     border: none;
 }
 
-.close-btn:hover .close-btn {
-  color: #ffffff;
+.close-btn:hover .close-icon {
+fill: #ffffff
 }
 
 
 .close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.close-icon:focus,
-.close-icon:hover {
-  fill: #ffffff;
 }
 
 .title-overley {
@@ -738,7 +733,7 @@ position: absolute;
 }
 
 .review-form-input:focus + .label-input-icon {
-  fill: #4d5ae5;
+border-color: #4D5AE5;
 }
 
 .label-input-coment {
@@ -766,14 +761,13 @@ position: absolute;
 }
 
 .textarea-checkbox:focus {
-  border-color: #4d5ae5;
+  border-color: #4D5AE5;
   outline: none;
 }
 
 .checkbox-wraper {
 margin-bottom: 24px;
 }
-
 
 .review-form-checkbox-label {
   font-weight: 400;
@@ -813,11 +807,12 @@ margin-bottom: 24px;
 }
 
 .review-form-checkbox:focus + .review-form-checkbox-label > .custom-checkbox {
-  border-color: #4d5ae5;
+  border-color: ##404bbf;
+  fill: #F4F4FD;
+  border: none;
 }
 
 .review-form-btn {
-  
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
