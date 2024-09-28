@@ -418,7 +418,119 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe-container">
+          <form class="subscribe-form">
+            <label class="form-field-label" for="user-email">Subscribe</label>
+            <input
+              class="subscribe-form-input"
+              type="email"
+              name="user-subscribe-email"
+              placeholder="E-mail"
+              required
+            />
+            <button class="subscribe-button" type="submit">
+              Subscribe
+              <svg class="icon-tg" width="24" height="20">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
+    <!-- MODAL OVERLEY -->
+
+    <div class="modal-overley">
+      <div class="overley">
+        <button class="close-btn">
+          <svg class="close-icon" width="8" height="8"></svg>
+            <use href="./images/icons.svg#icon-Vector-3"></use>
+          </svg>
+        </button>
+        <p class="title-overley">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="review-form">
+        <div class="label-input">
+          <label class="form-fild-label" for="user-name"
+            >Name</label>
+            <div class="review-form-input-wraper">
+              <input class="review-form-input" 
+              name="user-name" 
+              type="text" 
+              id="user-name" 
+              required/>
+            <svg class="label-input-icon" 
+            width="12" 
+            height="12">
+            <use href="./images/icons.svg#icon-Vector">
+            </use>
+          </svg>
+        </div> </div> 
+          <div class="label-input">
+          <label class="form-fild-label" for="user-phone"
+            >Phone</label>
+            <div class="review-form-input-wraper">
+            <input class="review-form-input" 
+            name="user-phone" 
+            type="text" 
+            id="user-phone"/>
+        <svg class="label-input-icon" 
+        width="12" 
+        height="12">
+        <use href="./images/icons.svg#icon-Vector-1">
+        </use>
+      </svg>
+    </div>
+          </div>
+          <div class="label-input">
+          <label class="form-fild-label" for="overley-user-email"
+            >Email</label>
+            <div class="review-form-input-wraper">
+            <input class="review-form-input" 
+            name="user-email" 
+            type="text" 
+            id="overley-user-email" 
+            required/>
+        <svg class="label-input-icon" 
+        width="12" 
+        height="12">
+        <use href="./images/icons.svg#icon-Vector-2">
+        </use>
+      </svg>
+      </div>
+          </div>
+          <div class="label-input">
+          <label class="form-fild-label" for="user-coment"
+            >Comment</label>
+            <textarea class="textarea-checkbox" 
+            name="user-coment" 
+            id="user-coment" 
+            placeholder="Text input" 
+            required>
+          </textarea>
+        </div>
+        <div class="checkbox-wraper">
+          <input class="review-form-checkbox visually-hidden" 
+          type="checkbox" 
+          id="privacy-policy" 
+          name="privacy-policy" 
+          required
+          value="true">
+          <label class="review-form-checkbox-label" for="privacy-policy">
+            <span class="custom-checkbox">
+              <svg class="custom-chekbox-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-ok"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the 
+            <a class="policy-link" href="" >Privacy Policy</a> 
+          </label>
+        </div>
+        <button class="review-form-btn" type="submit">Send</button>
+      </form>
+      </div>
+    </div>
   </body>
 </html>
